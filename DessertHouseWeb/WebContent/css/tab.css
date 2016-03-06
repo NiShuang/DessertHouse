@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+div ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tab {
+  float:left;
+  margin: 0 50px;
+  background: #8000ff;
+  color: #f0f0f0;
+}
+.tab a {
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+}
+.tab_menu {
+  line-height: 30px;
+}
+.tab_menu-item {
+  display: inline-block;
+  position: relative;
+}
+.tab_menu-item:hover {
+  background-color: #9b59b6;
+}
+.tab_menu-item:hover .tab_submenu {
+  display: block;
+}
+.word{
+	margin-left:30px;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+}
+.row{
+	width:800px;
+	height:30px;
+}

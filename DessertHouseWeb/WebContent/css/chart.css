@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+.commodityList{
+	width: 800px;
+	margin: 0 auto;
+
+}
+#container{
+	width: 550px; 
+	height: 300px; 
+
+
+}
+
+.menu{width:80px; height:250px; float:left; }
+.menu ul{width:80px;float:left;display:inline;}
+.select{width:80px; display: inline-block;position: relative;text-align:center; height:50px; line-height:50px; font-family:'微软雅黑'; font-size:14px;  margin:0; padding:0; cursor:pointer; background:#0080c0; }
+.select :hover{  color:#fff;background:#c40000}
+.menu a {
+  display: block;
+  line-height: inherit;
+  cursor: pointer;
+  color:#fff;
+}
+.selected{
+	width:80px; display: inline-block;position: relative;text-align:center; height:50px; line-height:50px; font-family:'微软雅黑'; font-size:14px;  margin:0; padding:0; cursor:pointer;
+  color:#fff;background:#c40000
+}
